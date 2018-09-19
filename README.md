@@ -10,6 +10,13 @@ A React higher order component that modifies a given component containing multip
 See
 https://medium.com/@penx/form-elements-in-presentational-component-packages-a618e9aa7416
 
+## Example problem
+
+You have 3 inputs that combined together form a date. You have these 3 input inside a single styled component and want to plug this in to your form code, e.g. using Redux Form or Final Form.
+
+You want the 3 inputs to behave as though they were a single input: having a single value prop and handling the onBlur, onFocus, onChange events as though they were a single input, as well as allowing the parent to [get refs](https://reactjs.org/docs/refs-and-the-dom.html) to each individual input.
+
+
 # Usage:
 
 For example, 3 inputs could be combined to form a single date input:
