@@ -1,8 +1,9 @@
 {
   "name": "multi-input-input",
   "version": "0.0.2",
-  "description": "// Modifies a component that contains multiple inputs to behave as though it was a single input",
-  "main": "(e, key));",
+  "description": "Modifies a component that contains multiple inputs to behave as though it was a single input",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "scripts": {
     "build": "npm run build:lib && npm run build:es",
     "build:lib": "rimraf lib && babel src -d lib --source-maps",
