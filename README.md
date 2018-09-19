@@ -25,7 +25,7 @@ For example, 3 inputs could be combined to form a single date input:
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import multiInputInput from '../../hoc/multiInputInput';
+import multiInputInput from 'multi-input-input';
 
 class OptionalDateInput extends React.Component {
   inputs = {}
@@ -79,7 +79,6 @@ OptionalDateInput.defaultProps = {
   onFocus: () => null,
 };
 
-// This component is dependent on multiInputInput HOC so we always export with HOC
 export default multiInputInput(OptionalDateInput);
 ```
 
