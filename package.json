@@ -1,6 +1,6 @@
 {
   "name": "multi-input-input",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Modifies a component that contains multiple inputs to behave as though it was a single input",
   "main": "lib/index.js",
   "module": "es/index.js",
