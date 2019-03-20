@@ -1,5 +1,7 @@
 # Multi Input Input
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/penx/multi-input-input.svg)](https://greenkeeper.io/)
+
 A React higher order component that modifies a given component containing multiple inputs to behave as though it was a single input by:
 - merging values in to an object
 - not calling onBlur when going from field to field within the same component
